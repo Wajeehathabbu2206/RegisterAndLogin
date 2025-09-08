@@ -29,7 +29,7 @@ The backend is powered by **Servlets & JDBC**, with a **MySQL database** for dat
 <--> [ MySQL Database (users table) ]
 <--> [ Apache Tomcat Server ]
 
-
+<img width="447" height="721" alt="image" src="https://github.com/user-attachments/assets/43abcd9f-2492-478f-b007-114fd1e9b60b" />
 <img width="442" height="601" alt="image" src="https://github.com/user-attachments/assets/73773b89-ec24-4859-b8d2-79b24d7a4383" />
 
 
