@@ -29,45 +29,9 @@ The backend is powered by **Servlets & JDBC**, with a **MySQL database** for dat
 <--> [ MySQL Database (users table) ]
 <--> [ Apache Tomcat Server ]
 
-┌──────────────────────────────┐
-│ User │
-│ • Register │
-│ • Login │
-└──────────────┬───────────────┘
-│
-│
-┌──────────────▼───────────────┐
-│ JSP Pages │
-│ • register.jsp │
-│ • login.jsp │
-│ • profile.jsp │
-└──────────────┬───────────────┘
-│
-│
-┌──────────────▼───────────────┐
-│ Java Servlets │
-│ • RegisterServlet │
-│ • LoginServlet │
-└──────────────┬───────────────┘
-│
-│
-┌──────────────▼───────────────┐
-│ Database Connection │
-│ • DbConnection.java │
-│ • JDBC API │
-└──────────────┬───────────────┘
-│
-│
-┌──────────────▼───────────────┐
-│ MySQL Database │
-│ • userdb.users table │
-│ - id │
-│ - name │
-│ - email │
-│ - password │
-│ - gender │
-│ - city │
-└───────────────────────────────┘
+
+<img width="442" height="601" alt="image" src="https://github.com/user-attachments/assets/73773b89-ec24-4859-b8d2-79b24d7a4383" />
+
 
 ---
 
